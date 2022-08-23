@@ -1,0 +1,57 @@
+body {
+	background-image: url("https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg");
+	background-color: #cccccc;
+   }
+   
+
+.main-title {
+	text-align: center;
+	background: #006491;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border-width: 500px;
+  box-shadow: inset;
+}
+
+.order-id-input {
+	width: 500px;
+	margin: 25px auto;
+}
+
+.order-status-card {
+	margin: 20px 0;
+}
+
+.order-status-card .card {
+	border-radius: 20px;
+}
+
+.order-status-card .card-header{
+	background: #006491;
+  color: white;
+	border-radius: 20px 20px 0 0;
+}
+
+.order-status-card .card-footer{
+	background: #e31837;
+  color: white;
+	border-radius: 0 0 20px 20px;
+}
+
+.order-status-card .card-text {
+	margin-bottom: 0.5rem;
+}
+
+.order-status-card .rounded-pill {
+	font-size: 1em;
+}
+#preloader {
+    background: rgb(145, 132, 132) url(https://media0.giphy.com/media/JsnSqp2t6E0udG3OQR/200w.gif) no-repeat center center ;
+    background-size: 10% ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Hash's Pizza</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="preloader">
+		
+	</div>
+	<nav class="navbar bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand">Hash's Pizza</a>
+		  <form class="d-flex" role="search">
+			<input class="form-control me-2" type="search" placeholder="Search for Pizza" aria-label="Search">
+			<button class="btn btn-outline-success" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+	<div class="container">
+		
+		<h1 class="display-2 main-title">Hash's Pizza</h1>
+		<div class="input-group mb-3 order-id-input-wrapper">
+			<input type="text" class="form-control" placeholder="Enter Order ID" aria-describedby="button-addon2" id="order-id-input">
+			<button class="btn btn-danger" type="button" id="button-addon2" onclick="executeOrder()">Execute</button>
+		</div>
+		<div class="row" id="order-cards-wrapper">
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+	<script src="js/createoder.js"></script>
+	<script src="js/orderstatus.js" ></script>
+	<script>
+   
+		var loader = document.getElementById("preloader");
+		window.addEventListener("load", function(){
+		 
+		 setTimeout(() => loader.style.visibility = "hidden", 2300)
+		})
+	 
+	 
+	 
+	 
+	 </script>
+</body>
+
+</html>
