@@ -2,7 +2,9 @@ body {
 	background-image: url(https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg);
 	background-color: #cccccc;
    }
-
+.navbar{
+	opacity: 0.8;
+   }
 
 .main-title {
 	text-align: center;
@@ -83,4 +85,13 @@ body {
 	background-image: url(assests/imageedit_2_9006369791.png);
 
 	
+}
+
+.text-center {
+    text-align: center;
+}
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
 }
