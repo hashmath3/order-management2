@@ -4,10 +4,10 @@ const createOrderCardBillTable = (billDetails) => {
 	billDetails.forEach(element => {
 		totalAmount = totalAmount + element.price
 	})
-	 const GSTbill = Math.round((10 / 100) * totalAmount)
-	 const grandtotal = totalAmount + GSTbill;
-	 console.log(totalAmount)
-	 console.log(grandtotal)
+	 const CGSTbill = Math.round((5 / 100) * totalAmount)
+	 const SGSTbill = Math.round((5 / 100) * totalAmount)
+	 const grandtotal = totalAmount + CGSTbill + SGSTbill;
+	
 
 	/* ---------------------------------------------------------------- */
 
@@ -64,9 +64,12 @@ const createOrderCardBillTable = (billDetails) => {
 	// -------gst
 	let GST = document.createElement('th')
 	GST.setAttribute('colspan', 2)
-	GST.innerText = `GST: 10% @ $${totalAmount}`
+	GST.innerText = `CGST: 5% @ $${totalAmount}
+	SGST: 5% @ $${totalAmount}`
 	let GSTamount = document.createElement('td')
-	GSTamount.innerText = `$${GSTbill.toFixed(2)}`
+	GSTamount.innerText = `$${CGSTbill.toFixed(2)}
+	$${SGSTbill.toFixed(2)}`
+	
 	let GSTRow = document.createElement('tr')
 	GSTRow.append(GST, GSTamount)
 

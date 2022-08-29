@@ -3,6 +3,9 @@ let currentOrderNumber = 1
 const executeOrder = () => {
 	let orderId = createOrderId()
 
+	if(currentOrderNumber === 1)
+		document.getElementById('empty').style.display = 'none'
+
 	let item1 = document.getElementById('item-1').value
 	let price1 = document.getElementById('price-1').value
 	let item2 = document.getElementById('item-2').value
@@ -57,7 +60,7 @@ const resetFields = () => {
 const createOrderId = () => {
 	let todaysDate = new Date()
 
-	let temp = `HASH${todaysDate.getFullYear()}${todaysDate.getMonth() + 1}${todaysDate.getDate()}`
+	let temp = `Hash${todaysDate.getFullYear()}${todaysDate.getMonth() + 1}${todaysDate.getDate()}`
 
 	let numOfPreceedingZeroes = 3
 	if(currentOrderNumber >= 10)
