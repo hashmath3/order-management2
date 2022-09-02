@@ -1,6 +1,22 @@
 let currentOrderNumber = 1
+const displaytoast =() => {
+let recipientname =  document.getElementById('recipient-name').value
 
+let location = document.getElementById('location').value
+
+
+document.getElementById('displaytoaster').innerHTML = `Sorry ${recipientname} ,Currently no New Deals around ${location}` 
+resetField()
+
+}
+const resetField = () => {
+	document.getElementById('recipient-name').value = ''
+	document.getElementById('location').value = ''
+	
+
+}
 const executeOrder = () => {
+
 	let orderId = createOrderId()
 
 	if(currentOrderNumber === 1)
@@ -75,3 +91,17 @@ const createOrderId = () => {
 
 	return `${temp}${currentOrderNumber}`
 }
+
+
+// ---toast-------//
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+
+

@@ -1,9 +1,54 @@
-body {
+body{
+
 	background-image: url(https://i.pinimg.com/originals/00/f1/78/00f1782340c987601b52a08e494ae080.jpg);
 	background-repeat: no-repeat;
+	background-position: top;
 	background-size: cover;
-	background-color: #cccccc;
-   }
+    background-size: 100% 100%;
+}
+	.logopic {
+		width: 4%;
+	}
+h2 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-weight: bolder;
+}
+	#Logopic {
+		width: 4%;
+	}
+	.navbar-brand {
+		position: absolute;
+		margin-left: 55px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-weight: bolder;
+	}
+	#displaytoaster ,.me-auto
+	{
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-weight: bolder;
+		color: aliceblue;
+	}
+	
+	.cl{
+		width: 80%;
+		margin-left: 65px;
+		
+	}
+	.cl1{
+
+		width : 80%
+	}
+	#btn1 {
+	width: 600px;
+	margin: 10px;
+	margin-left: 330px;
+	border-radius: 90px;
+	font-size: large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+	
+	
+   
 .navbar{
 	opacity: 0.8;
    }
@@ -84,7 +129,7 @@ body {
 
 	
 	
-	background-image: url(assests/imageedit_2_9006369791\ \(1\).png);
+	background-image: url(assests/imageedit_2_9006369791\ \(1\).png)
 
 	
 }
@@ -92,6 +137,23 @@ body {
 .text-center {
     text-align: center;
 }
+
+h2 {
+	display: flex;
+	flex-direction: row;
+  }
+  h2:before, h2:after{
+	content: "";
+	flex: 1 1;
+	border-bottom: 1px solid;
+	margin: auto;
+  }
+  h2:before {
+	margin-right: 10px
+  }
+  h2:after {
+	margin-left: 10px
+  }
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;

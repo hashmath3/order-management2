@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/00/f1/78/00f1782340c987601b52a08e494ae080.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.registration-form, .login-form{
+	width: 800px;
+	font-weight: bold;
+	margin: 10px auto;
+	border-radius: 20px;
+	border-color: black;
+	padding: 10px 10px 30px;
+	box-shadow: 11px -16px 18px 20px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.login-form {
+	margin-top: 100px;
+	padding: 10px 30px 30px;
+	
+}
+
+.sign-up-title, .login-title, .button-wrapper {
+	text-align: center;
+}
+
+.signup-alert, .login-alert {
+	margin: 10px auto 20px;
+	display: none;
+}
+
+.login-alert {
+	width: 75%;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+.logopic {
+    width: 4%;
+}
+
+.navbar-brand {
+    position: absolute;
+    margin-left: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
