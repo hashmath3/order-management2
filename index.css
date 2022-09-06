@@ -159,3 +159,23 @@ footer {
     color: #f5f5f5;
     padding: 32px;
 }
+
+
+/* //responsive */
+
+@media screen and (max-width: 600px) {
+body{
+	background-size: cover;
+}
+	.navbar{
+		width: 100%;
+	}
+	#btn1 {
+		width: 50%;
+	}
+	.c1 .cl1{
+		width: 50%;
+		height: 50%;
+	}
+
+}
