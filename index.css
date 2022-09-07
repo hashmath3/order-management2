@@ -164,18 +164,35 @@ footer {
 /* //responsive */
 
 @media screen and (max-width: 600px) {
-body{
-	background-size: cover;
-}
-	.navbar{
-		width: 100%;
+	body{
+		background-size: cover;
 	}
-	#btn1 {
-		width: 50%;
+		#navbar1{
+			width: 120%;
+		}
+		#btn1 {
+			width: 60%;
+			margin-left: 100px;
+		}
+		/* .c1 {
+			width: 60%;
+			height: 50%;
+		}
+		.cl1{
+			width: 70%;
+			height: 70%;
+			margin-left: 65px;
+		} */
+	
+		#col-md-62{
+			width: 50%;
+		}
+		.text-center{
+			width: 120%;
+			position: relative;
+			
+		}
+	
+	
 	}
-	.c1 .cl1{
-		width: 50%;
-		height: 50%;
-	}
-
-}
+	
