@@ -169,7 +169,7 @@ footer {
 		background-size: cover;
 	}
 		#navbar1{
-			width: 120%;
+			width: 100%;
 		}
 		#btn1 {
 			width: 60%;
@@ -184,16 +184,21 @@ footer {
 			height: 70%;
 			margin-left: 65px;
 		} */
-	
+	#mod6{
+		width: 50%;
+	}
 		#col-md-62{
 			width: 50%;
 		}
 		.text-center{
-			width: 120%;
+			width: 100%;
 			position: relative;
 			
 		}
-	
+	footer{
+		padding: 5px;
+		height: 210px;
+	}
 	
 	}
 	
