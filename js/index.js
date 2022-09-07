@@ -19,7 +19,7 @@ const executeOrder = () => {
 
 	let orderId = createOrderId()
 
-	if(currentOrderNumber === 1)
+	
 		document.getElementById('empty').style.display = 'none'
 
 	let item1 = document.getElementById('item-1').value
