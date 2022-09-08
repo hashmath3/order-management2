@@ -73,6 +73,15 @@ const createOrderCardBillTable = (billDetails) => {
 	let GSTRow = document.createElement('tr')
 	GSTRow.append(GST, GSTamount)
 
+	// GSTRow.classList ='popup'
+	// GSTRow.setAttribute('onclick','myFunction()')
+	// let gstspan = document.createElement('span')
+	// GSTRow.append(gstspan)
+	// gstspan.classList='popuptext'
+	// gstspan.id=myPopup
+	// gstspan.innerText="GST on order below $10 is not appilcable"
+
+
 
 
 		// 3. Creating Grand total Bill Row

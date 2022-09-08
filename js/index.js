@@ -3,6 +3,12 @@ const displaytoast =() => {
 let recipientname =  document.getElementById('recipient-name').value
 
 let location = document.getElementById('location').value
+//  if(location.equals("hyderabad"))
+//  {
+// 	document.getElementById('displaytoaster').innerHTML = `Hurray ${recipientname} ,Exiciting New Deals around ${location}`
+//  }
+//  else{
+
 
 
 document.getElementById('displaytoaster').innerHTML = `Sorry ${recipientname} ,Currently no New Deals around ${location}` 
@@ -104,4 +110,10 @@ if (toastTrigger) {
   })
 }
 
+// popup
+
+// function myFunction() {
+// 	var popup = document.getElementById("myPopup");
+// 	popup.classList.toggle("show");
+//   }
 
